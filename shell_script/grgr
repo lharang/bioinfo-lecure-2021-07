@@ -1,0 +1,4 @@
+for in {1..100}
+do
+	grep "^chr${i} SRR000982.filtered.variants.annotated.vcf | wc -l
+done
